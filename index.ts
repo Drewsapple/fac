@@ -1,1 +1,3 @@
-console.log("Hello via Bun!");
+import { $ } from "bun";
+
+await $`echo "Hello From Bun Shell!"`;
